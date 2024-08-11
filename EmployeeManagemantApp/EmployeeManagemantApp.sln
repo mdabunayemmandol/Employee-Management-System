@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.33026.149
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 Application", "01 Application", "{0FE9B764-01AD-4510-B484-253E8D2E6A70}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 Service", "02 Service", "{8D3A2CF4-1B58-4D2F-A01F-EDF2125D3772}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 Persistance", "03 Persistance", "{0AA6A737-D9AA-4E1B-B2C5-818DA6B91D38}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 Core", "04 Core", "{DC0C214E-BAB6-489F-BB30-F5DED0B63943}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EIMS.Core", "EIMS.Core\EIMS.Core.csproj", "{164412C7-3744-433F-97F1-19ED0B1ECCF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EIMS.Persistance", "EIMS.Persistance\EIMS.Persistance.csproj", "{00132FA2-DAAD-45C4-ADF7-3CB8973FC917}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EIMS.Service", "EIMS.Service\EIMS.Service.csproj", "{883F369B-11E7-4F25-9ADA-76E435B6EA0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EIMS.App", "EIMS.App\EIMS.App.csproj", "{FFB65DED-9FFD-40D8-A1FF-057CE0DF6D34}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{164412C7-3744-433F-97F1-19ED0B1ECCF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{164412C7-3744-433F-97F1-19ED0B1ECCF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{164412C7-3744-433F-97F1-19ED0B1ECCF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{164412C7-3744-433F-97F1-19ED0B1ECCF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00132FA2-DAAD-45C4-ADF7-3CB8973FC917}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00132FA2-DAAD-45C4-ADF7-3CB8973FC917}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00132FA2-DAAD-45C4-ADF7-3CB8973FC917}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00132FA2-DAAD-45C4-ADF7-3CB8973FC917}.Release|Any CPU.Build.0 = Release|Any CPU
+		{883F369B-11E7-4F25-9ADA-76E435B6EA0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{883F369B-11E7-4F25-9ADA-76E435B6EA0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{883F369B-11E7-4F25-9ADA-76E435B6EA0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{883F369B-11E7-4F25-9ADA-76E435B6EA0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFB65DED-9FFD-40D8-A1FF-057CE0DF6D34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFB65DED-9FFD-40D8-A1FF-057CE0DF6D34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFB65DED-9FFD-40D8-A1FF-057CE0DF6D34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFB65DED-9FFD-40D8-A1FF-057CE0DF6D34}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{164412C7-3744-433F-97F1-19ED0B1ECCF4} = {DC0C214E-BAB6-489F-BB30-F5DED0B63943}
+		{00132FA2-DAAD-45C4-ADF7-3CB8973FC917} = {0AA6A737-D9AA-4E1B-B2C5-818DA6B91D38}
+		{883F369B-11E7-4F25-9ADA-76E435B6EA0E} = {8D3A2CF4-1B58-4D2F-A01F-EDF2125D3772}
+		{FFB65DED-9FFD-40D8-A1FF-057CE0DF6D34} = {0FE9B764-01AD-4510-B484-253E8D2E6A70}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {93276EFD-05D5-454A-9431-45A049B3D3D7}
+	EndGlobalSection
+EndGlobal
